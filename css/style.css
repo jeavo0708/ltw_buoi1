@@ -17,7 +17,7 @@ body {
 	text-align:center;
 	color: white;
 	font-size: 30pt;
-	text-shadow: 5px 2px 4px black;
+	text-shadow: 5px 2px 4px grey;
 	font-family: itim;
 }
 .giua{
@@ -58,8 +58,10 @@ body {
 	font-size: 15pt;
 }
 
-.logo{
+.cangiua{
 	text-align:center;
+	font-family:itim;
+	font-size: 20pt;
 }
 
 .tieude{
@@ -76,7 +78,7 @@ body {
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	background-color: #b6e0ff;
+	background-color: #7debff;
 	color: black;
 	text-align: center;
 	clear: both;
