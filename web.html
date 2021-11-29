@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="UTF-8">
+	<title>Design Logo</title>
+	<link rel="shortcut icon" type="image/x-icon" href="images/logo.png" />
+	<link rel="stylesheet" href= "css/style.css">
+<body>
+	<div>
+		<nav id="fixNav" class="navbar navbar-light" style="background-color: #b6e0ff;">
+			<a class="tieude" href="web.html">
+				<b>💻	DESIGN LOGO</b>
+			</a>
+		</nav>
+	</div>	
+	
+	<br/>
+	<br/>
+	
+	<div class="dau">
+		<h3>
+			Thiết kế Logo khoa Công nghệ thông tin trường Đại học An Giang
+		</h3>
+	</div>
+	
+		
+	<hr/>
+		<div class="logo">
+			<img id="img" src="images/logo.png" width="300" height="300">
+		</div>
+		
+	<div class="giua">
+	
+		<p>Logo khoa <b>Công nghệ thông tin</b> trường <b>Đại học An Giang</b> là đồ án môn Thiết kế đồ họa, được design bởi nhóm sinh viên thuộc lớp DH19TH2:</p>
+		<div class="ten">
+			<svg width="500" height="200">
+				<rect x="0" y="0" width="500" height="200" stroke="lightblue" stroke-width="3px" fill="black"/>
+				<text x="50%" y="20%" dominant-baseline="middle" text-anchor="middle" fill="white">Trần Quốc Thắng</text>
+				<text x="50%" y="40%" dominant-baseline="middle" text-anchor="middle" fill="white">Trương Thị Ngọc Hân</text>
+				<text x="50%" y="60%" dominant-baseline="middle" text-anchor="middle" fill="white">Võ Hồng Ngọc</text>
+				<text x="50%" y="80%" dominant-baseline="middle" text-anchor="middle" fill="white">Nguyễn Huỳnh Lợi</text>
+				Rất tiếc, trình duyệt của bạn không hỗ trợ SVG.
+			</svg>
+		</div>
+		<br/>
+		
+		<h2 class="ytuong"><b>Ý tưởng:</b></h2>
+		<p>Cách điệu chữ IT trong logo dựa trên ý tưởng về các con đường quốc lộ, ngã rẽ của thành phố.
+		Cũng như đại diện cho những tiến bộ Công nghiệp hóa - Hiện đại hóa của xã hội.</p>
+		
+		<div class="logo">
+			<img id="img" src="images/conduong.jpg" width="500" height="300">
+		</div>
+		
+		
+		<p>Ý tưởng về màu sắc được lấy từ các màu thường gặp khi lập trình.</p>
+		
+		<h2 class="red"><b>Màu đỏ:</b></h2>
+		<p>Đại diện cho các bug - các lỗi mắc phải khi lập trình.</p>
+		<p>Màu đỏ xuất hiện đầu tiên và chiếm số ít trong logo IT cách điệu cũng chứng minh cho việc lúc mới bắt tay vào viết code thì không thể tránh khỏi các sai sót.
+		Nhưng càng về sau sẽ càng thành thạo, càng ít gặp lỗi khi lập trình.
+		</p>
+		<div class="logo">
+			<img id="img" src="images/bug.jpg" width="500" height="300">
+		</div>
+		<br/>
+		
+		<h2 class="blue"><b>Màu xanh:</b></h2>
+		<p>Là màu của tuổi trẻ, của sự nhiệt huyết. Đồng thời đây cũng là tinh thần của khoa Công nghệ thông tin mà nhóm chúng em muốn truyền đạt.</p>
+		<p>Trong lập trình web, đây là màu của các thẻ - là thứ không thể thiếu khi muốn làm nên một sản phẩm. </p>
+		<p>Ngoài ra, màu xanh cũng được biểu thị cho ánh sáng xanh - thứ mà mỗi nhân viên IT đều đối mặt nhiều giờ liền mỗi ngày.
+		Phía sau thành công luôn có cái giá phải trả, để tạo nên một thành quả hoàn hảo là sự đánh đổi sức khỏe của mỗi người lập trình.</p>
+		<p>Màu xanh trong logo là tinh thần, là sự cần thiết và là những hi sinh thầm lặng của những người lập trình.</p>
+		<div class="logo">
+			<img id="img" src="images/asxanh.jpg" width="500" height="300">
+		</div>
+		
+		<h2 class="ytuong"><b>Các bước thiết kế:</b></h2>
+		<p>Dựa trên những kiến thức đã học ở môn Thiết kế đồ họa. Logo được thiết kế bằng kỹ thuật lập trình script, canvas.</p>
+		<p class="logo">Sau đây là các bước tạo nên logo:</p>
+		<table>
+			<tr>
+				<td>
+					<div class="mau">
+						<canvas id="mau1" width="300" height="300">Không hỗ trợ chức năng</canvas>
+						<script>
+							var canvas = document.getElementById("mau1");
+							var context = canvas.getContext("2d");
+							
+							//Nền tròn đen
+							context.beginPath();
+							context.arc(150,150,147,0,2*Math.PI);
+							context.fillStyle="#000000";
+							context.fill();
+						</script>
+					</div>
+				</td>
+				<td>
+					<p>Khởi đầu là tạo một hình tròn nền đen, đây cũng chính là nền của logo:</p>
+					<div class="code">
+						<p>context.beginPath();</p>
+						<p>context.arc(150,150,147,0,2*Math.PI);</p>
+						<p>context.fillStyle="#000000";</p>
+						<p>context.fill();</p>
+					</div>
+				</td>	
+			</tr>
+			<tr>
+				<td>
+					<div class="mau">
+						<canvas id="mau2" width="300" height="300">Không hỗ trợ chức năng</canvas>
+						<script>
+							var canvas = document.getElementById("mau2");
+							var context = canvas.getContext("2d");
+							
+							//Nền tròn đen
+							context.beginPath();
+							context.arc(150,150,147,0,2*Math.PI);
+							context.fillStyle="#000000";
+							context.fill();
+							//1
+							context.beginPath();
+							context.moveTo(55,156);
+							context.lineTo(90,122);
+							context.lineTo(125,122);
+							context.lineTo(90,156);
+							context.lineTo(55,156);
+							
+							context.fillStyle="#ff3b4b";
+							context.stroke();	
+							context.closePath();
+							context.fill();
+							
+							//2
+							context.beginPath();
+							context.moveTo(90,169);
+							context.lineTo(125,134);
+							context.lineTo(125,213);
+							context.lineTo(90,248);
+							context.lineTo(90,169);
+							
+							context.fillStyle="#58c3f5";
+							context.stroke();	
+							context.closePath();
+							context.fill();
+
+							//3
+							context.beginPath();
+							context.moveTo(135,208);
+							context.lineTo(135,72);
+							context.lineTo(170,37);
+							context.lineTo(170,87);
+							context.lineTo(245,87);
+							context.lineTo(210,122);
+							context.lineTo(170,122);
+							context.lineTo(170,173);
+							context.lineTo(135,208);
+							
+							context.fillStyle="#58c3f5";
+							context.stroke();	
+							context.closePath();
+							context.fill();
+						</script>
+					</div>
+				</td>
+				<td>
+					<p>Tiếp theo vẽ các khối tạo nên chữ IT cách điệu và đổ màu vào khối bằng:</p>
+					<div class="code">
+						<p>context.moveTo();</p><p>context.lineTo();</p><p>context.fillStyle="";</p>
+					</div>
+				</td>	
+			</tr>
+			<tr>
+				<td>
+					<div class="mau">
+						<canvas id="mau3" width="300" height="300">Không hỗ trợ chức năng</canvas>
+						<script>
+							var canvas = document.getElementById("mau3");
+							var context = canvas.getContext("2d");
+							
+							//Nền tròn đen
+							context.beginPath();
+							context.arc(150,150,147,0,2*Math.PI);
+							context.fillStyle="#000000";
+							context.fill();
+							//1
+							context.beginPath();
+							context.moveTo(55,156);
+							context.lineTo(90,122);
+							context.lineTo(125,122);
+							context.lineTo(90,156);
+							context.lineTo(55,156);
+							
+							context.fillStyle="#ff3b4b";
+							context.stroke();	
+							context.closePath();
+							context.fill();
+							
+							//2
+							context.beginPath();
+							context.moveTo(90,169);
+							context.lineTo(125,134);
+							context.lineTo(125,213);
+							context.lineTo(90,248);
+							context.lineTo(90,169);
+							
+							context.fillStyle="#58c3f5";
+							context.stroke();	
+							context.closePath();
+							context.fill();
+
+							//3
+							context.beginPath();
+							context.moveTo(135,208);
+							context.lineTo(135,72);
+							context.lineTo(170,37);
+							context.lineTo(170,87);
+							context.lineTo(245,87);
+							context.lineTo(210,122);
+							context.lineTo(170,122);
+							context.lineTo(170,173);
+							context.lineTo(135,208);
+							
+							context.fillStyle="#58c3f5";
+							context.stroke();	
+							context.closePath();
+							context.fill();
+							
+							
+							//Vòng
+							context.beginPath();
+							context.arc(150,150,130,0,2*Math.PI);
+							context.lineWidth = 3;
+							context.strokeStyle="#8ae4ff";
+							context.stroke();
+						</script>
+					</div>
+				</td>
+				<td>
+					<p>Vẽ một vòng tròn có viền màu xanh bên ngoài chữ IT cách điệu:</p>
+					<div class="code">
+						<p>context.beginPath();</p>
+						<p>context.arc(150,150,130,0,2*Math.PI);</p>
+						<p>context.lineWidth = 3;</p>
+						<p>context.strokeStyle="#8ae4ff";</p>
+						<p>context.stroke();</p>
+					</div>
+				</td>	
+			</tr><tr>
+				<td>
+					<div class="mau">
+						<canvas id="mau4" width="300" height="300">Không hỗ trợ chức năng</canvas>
+						<script>
+							var canvas = document.getElementById("mau4");
+							var context = canvas.getContext("2d");
+							
+							//Nền tròn đen
+							context.beginPath();
+							context.arc(150,150,147,0,2*Math.PI);
+							context.fillStyle="#000000";
+							context.fill();
+							//1
+							context.beginPath();
+							context.moveTo(55,156);
+							context.lineTo(90,122);
+							context.lineTo(125,122);
+							context.lineTo(90,156);
+							context.lineTo(55,156);
+							
+							context.fillStyle="#ff3b4b";
+							context.stroke();	
+							context.closePath();
+							context.fill();
+							
+							//2
+							context.beginPath();
+							context.moveTo(90,169);
+							context.lineTo(125,134);
+							context.lineTo(125,213);
+							context.lineTo(90,248);
+							context.lineTo(90,169);
+							
+							context.fillStyle="#58c3f5";
+							context.stroke();	
+							context.closePath();
+							context.fill();
+
+							//3
+							context.beginPath();
+							context.moveTo(135,208);
+							context.lineTo(135,72);
+							context.lineTo(170,37);
+							context.lineTo(170,87);
+							context.lineTo(245,87);
+							context.lineTo(210,122);
+							context.lineTo(170,122);
+							context.lineTo(170,173);
+							context.lineTo(135,208);
+							
+							context.fillStyle="#58c3f5";
+							context.stroke();	
+							context.closePath();
+							context.fill();
+							
+							
+							//Vòng
+							context.beginPath();
+							context.arc(150,150,130,0,2*Math.PI);
+							context.lineWidth = 3;
+							context.strokeStyle="#8ae4ff";
+							context.stroke();
+							
+							//Chữ
+							context.font = "20px Itim";
+							context.fillText("A", 180, 145);
+							context.fillText("G", 180, 163);
+							context.fillText("U", 180, 181);
+						</script>
+					</div>
+				</td>
+				<td>
+					<p>Cuối cùng thêm ký tự AGU đại diện cho Trường Đại học An Giang vào logo:</p>
+					<div class="code">
+						<p>context.font = "20px Itim";</p>
+						<p>context.fillText("A", 180, 145);</p>
+						<p>context.fillText("G", 180, 165);</p>
+						<p>context.fillText("U", 180, 185);</p>
+					</div>
+				</td>	
+			</tr>
+		</table>
+		
+	</div>
+	
+	<br/>
+	<div class="logo">
+		<canvas id="canvas" width="300" height="300">Không hỗ trợ chức năng</canvas>
+	</div>
+	
+	<script>
+	var canvas = document.getElementById("canvas");
+	var context = canvas.getContext("2d");
+	
+	//Nền tròn đen
+	context.beginPath();
+	context.arc(150,150,147,0,2*Math.PI);
+	context.fillStyle="#000000";
+	context.fill();
+	//1
+	context.beginPath();
+	context.moveTo(55,156);
+	context.lineTo(90,122);
+	context.lineTo(125,122);
+	context.lineTo(90,156);
+	context.lineTo(55,156);
+	
+	context.fillStyle="#ff3b4b";
+	context.stroke();	
+	context.closePath();
+	context.fill();
+	
+	//2
+	context.beginPath();
+	context.moveTo(90,169);
+	context.lineTo(125,134);
+	context.lineTo(125,213);
+	context.lineTo(90,248);
+	context.lineTo(90,169);
+	
+	context.fillStyle="#58c3f5";
+	context.stroke();	
+	context.closePath();
+	context.fill();
+
+	//3
+	context.beginPath();
+	context.moveTo(135,208);
+	context.lineTo(135,72);
+	context.lineTo(170,37);
+	context.lineTo(170,87);
+	context.lineTo(245,87);
+	context.lineTo(210,122);
+	context.lineTo(170,122);
+	context.lineTo(170,173);
+	context.lineTo(135,208);
+	
+	context.fillStyle="#58c3f5";
+	context.stroke();	
+	context.closePath();
+	context.fill();
+	
+	
+	//Vòng
+	context.beginPath();
+	context.arc(150,150,130,0,2*Math.PI);
+	context.lineWidth = 3;
+	context.strokeStyle="#8ae4ff";
+	context.stroke();
+	
+	//Chữ
+	context.font = "20px Itim";
+	context.fillText("A", 180, 145);
+	context.fillText("G", 180, 163);
+	context.fillText("U", 180, 181);
+	</script>
+	
+	<br/>
+
+
+	<div class = "footer"><i>Bản quyền &copy; 2021 bởi Trần Quốc Thắng - Trương Thị Ngọc Hân - Võ Hồng Ngọc - Nguyễn Huỳnh Lợi.</i></div>
+</body>
+</html>
